@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Core Machine Learning & Deep Learning
+tensorflow
+scikit-learn  # For data splitting and evaluation metrics
+numpy
+pandas        # For data analysis and managing results
+
+# Frontend Web Interface
+streamlit
+
+# Data Handling & Visualization
+Pillow        # For loading and processing images
+matplotlib    # For plotting graphs for your report
+seaborn       # For advanced plotting (like confusion matrices)
+opencv-python-headless # For image preprocessing
