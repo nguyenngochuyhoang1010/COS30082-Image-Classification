@@ -1,0 +1,34 @@
+# .gitignore
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE & OS specific files
+.vscode/
+.idea/
+.DS_Store
+*.ipynb_checkpoints
+
+# Data - DO NOT commit the large image dataset
+data/
+# But DO commit the .gitkeep and README files inside data/
+!data/.gitkeep
+!data/README.md
+
+# Trained models - These files are large and should not be in Git
+models/
+# But DO commit the .gitkeep file
+!models/.gitkeep
+*.h5
+*.keras
+
+# Local environment variables
+.env
