@@ -10,7 +10,7 @@ CLASS_NAMES = [
     'Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 
     'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia'
 ]
-MODEL_PATH = 'frontend/models/best_model.h5'
+MODEL_PATH = 'models/best_model.h5'
 
 
 # --- Model Loading ---
