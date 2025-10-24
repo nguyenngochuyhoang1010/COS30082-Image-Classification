@@ -2,6 +2,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
+from pathlib import Path
 
 # --- Configuration (Updated from your notebook) ---
 IMG_HEIGHT = 224
@@ -10,7 +11,11 @@ CLASS_NAMES = [
     'Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 
     'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia'
 ]
-MODEL_PATH = 'models/best_model.h5'
+# Find the path to the directory this script is in (frontend/)
+SCRIPT_DIR = Path(__file__).parent
+
+# Build the full, absolute path to the model
+MODEL_PATH = SCRIPT_DIR / "models" / "best_model.h5"
 
 
 # --- Model Loading ---
