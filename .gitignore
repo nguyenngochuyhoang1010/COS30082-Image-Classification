@@ -24,9 +24,8 @@ data/
 !data/README.md
 
 # Trained models - These files are large and should not be in Git
-models/
-# But DO commit the .gitkeep file
-!models/.gitkeep
+frontend/models/
+!frontend/models/.gitkeep
 *.h5
 *.keras
 
