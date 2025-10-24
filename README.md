@@ -51,8 +51,8 @@ A final PDF report detailing the methodology and results.
 │
 
 └── 📂 report/ 
-|
-    └── 📄 Assignment_Report.pdf 
+
+   └── 📄 Assignment_Report.pdf 
 
 
 🚀 How to Run the Project
