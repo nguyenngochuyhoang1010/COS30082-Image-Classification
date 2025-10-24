@@ -17,25 +17,25 @@ A final PDF report detailing the methodology and results.
 📂 Repository Structure
 
 .
-├── 📜 README.md         # This file
-├── 🐍 requirements.txt  # Project dependencies
-├── .gitignore          # Files to ignore
+├── 📜 README.md         # This file 
+├── 🐍 requirements.txt  # Project dependencies 
+├── .gitignore          # Files to ignore 
 │
-├── 📂 data/            # Contains README on where to get data
+├── 📂 data/            # Contains README on where to get data 
 │
-├── 📂 frontend/        # Streamlit app
+├── 📂 frontend/        # Streamlit app 
 │   ├── 📄 app.py
 │   └── ...
 │
-├── 📂 models/          # Where the trained model is saved
+├── 📂 models/          # Where the trained model is saved 
 │   └── 📄 best_model.h5
 │
-├── 📂 notebooks/       # All development notebooks
+├── 📂 notebooks/       # All development notebooks 
 │   ├── 🧪 1_data_exploration.ipynb
 │   └── 🧠 2_model_prototyping.ipynb
 │
-└── 📂 report/
-    └── 📄 Assignment_Report.pdf
+└── 📂 report/ 
+    └── 📄 Assignment_Report.pdf 
 
 
 🚀 How to Run the Project
