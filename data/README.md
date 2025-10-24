@@ -14,10 +14,17 @@ The correct final structure should be:
 
 .
 ├── data/
+
 │   ├── README.md (this file)
+
 │   └── train/
+
 │       ├── Amphibia/
+
 │       │   └── ... (images)
+
 │       ├── Animalia/
+
 │       │   └── ... (images)
+
 │       └── ... (and 8 other class folders)
